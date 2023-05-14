@@ -1,0 +1,649 @@
+{
+  // "breadcrumbs.filePath": "on",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "glassit.alpha": 250,
+  // "glassit.step": 5,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.icons": false,
+  "carbon.paddingHorizontal": 0,
+  "carbon.paddingVertical": 0,
+  "carbon.windowControls": true,
+  "carbon.windowTheme": "sharp",
+  "comments.openView": "never",
+  "csharp.format.enable": true,
+  "csharp.inlayHints.parameters.enabled": false,
+  "csharp.inlayHints.parameters.forIndexerParameters": false,
+  "csharp.inlayHints.parameters.forLiteralParameters": false,
+  "csharp.inlayHints.parameters.forObjectCreationParameters": false,
+  "csharp.inlayHints.parameters.forOtherParameters": false,
+  "csharp.inlayHints.parameters.suppressForParametersThatDifferOnlyBySuffix": false,
+  "csharp.inlayHints.parameters.suppressForParametersThatMatchArgumentName": false,
+  "csharp.inlayHints.parameters.suppressForParametersThatMatchMethodIntent": false,
+  "csharp.inlayHints.types.enabled": false,
+  "csharp.inlayHints.types.forImplicitObjectCreation": false,
+  "csharp.inlayHints.types.forImplicitVariableTypes": false,
+  "csharp.inlayHints.types.forLambdaParameterTypes": false,
+  "csharp.referencesCodeLens.enabled": true,
+  // "csharp.referencesCodeLens.enabled": true,
+  "diffEditor.wordWrap": "off",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.autoClosingDelete": "auto",
+  "editor.autoClosingQuotes": "languageDefined",
+  "editor.autoIndent": "advanced",
+  // "breadcrumbs.showBooleans": true,
+  // "notebook.breadcrumbs.showCodeCells": true,
+  "editor.autoSurround": "languageDefined",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.organizeImports": true
+  },
+  // "editor.codeLens": true,
+  "editor.colorDecorators": true,
+  "editor.codeActionWidget.showHeaders": true,
+  "editor.occurrencesHighlight": true,
+  "editor.colorDecoratorsLimit": 500,
+  "editor.columnSelection": false,
+  "editor.comments.ignoreEmptyLines": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorSurroundingLines": 10,
+  "editor.cursorSurroundingLinesStyle": "default",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.detectIndentation": true,
+  "editor.dragAndDrop": false,
+  "editor.dropIntoEditor.enabled": true,
+  "editor.experimental.pasteActions.enabled": true,
+  "editor.experimental.useCustomCodeActionMenu": true,
+  "editor.experimentalWhitespaceRendering": "svg",
+  "editor.fastScrollSensitivity": 5,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.fontFamily": "'FiraCode NF', 'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.glyphMargin": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.hover.delay": 300,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlayHints.fontSize": 12,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "interval",
+  "editor.linkedEditing": true,
+  "editor.links": true,
+  // "editor.language.colorizedBracketPairs": [
+  //   ["(", ")"],
+  //   ["{", "}"],
+  //   ["<", ">"]
+  // ],
+  // "editor.language.brackets": ["(", ")", "{", "}", "<", ">"],
+  "editor.matchBrackets": "near",
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 1,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.minimap.side": "right",
+  "editor.mouseWheelZoom": true,
+  "editor.multiCursorMergeOverlapping": true,
+  "editor.multiCursorPaste": "spread",
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "other": "on",
+    "strings": "off"
+  },
+  "editor.quickSuggestionsDelay": 1,
+  "editor.renderControlCharacters": true,
+  "editor.renderFinalNewline": "on",
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderLineHighlightOnlyWhenFocus": false,
+  "editor.smoothScrolling": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.wordBasedSuggestions": false,
+  "editor.wordWrap": "on",
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showSuggestionsAsSnippets": false,
+  "emmet.triggerExpansionOnTab": false,
+  "errorLens.borderRadius": "5px",
+  "errorLens.delay": 100,
+  "errorLens.enabled": true,
+  "errorLens.enabledDiagnosticLevels": ["error"],
+  "errorLens.enabledInMergeConflict": true,
+  "errorLens.enableOnDiffView": true,
+  "errorLens.fontSize": "12px",
+  "errorLens.messageEnabled": true,
+  "errorLens.onSave": true,
+  "errorLens.onSaveTimeout": 1000,
+  "errorLens.statusBarColorsEnabled": false,
+  "errorLens.statusBarMessageEnabled": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": true,
+  "git.mergeEditor": true,
+  "gitlens.blame.heatmap.enabled": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.telemetry.enabled": false,
+  // "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "Lua.telemetry.enable": false,
+  "outline.problems.badges": true,
+  "outline.problems.colors": true,
+  "outline.problems.enabled": true,
+  "problems.autoReveal": true,
+  "problems.decorations.enabled": true,
+  "problems.defaultViewMode": "table",
+  "problems.showCurrentInStatus": false,
+  "problems.sortOrder": "severity",
+  "redhat.telemetry.enabled": false,
+  "rust-analyzer.cachePriming.enable": true,
+  "rust-analyzer.diagnostics.previewRustcOutput": true,
+  "rust-analyzer.hover.actions.gotoTypeDef.enable": true,
+  "rust-analyzer.hover.actions.enable": true,
+  "rust-analyzer.hover.actions.run.enable": true,
+  "rust-analyzer.hover.documentation.enable": true,
+  "rust-analyzer.assist.expressionFillDefault": "todo",
+  "rust-analyzer.cargo.autoreload": true,
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.completion.autoimport.enable": true,
+  "rust-analyzer.completion.autoself.enable": true,
+  "rust-analyzer.debug.engine": "vadimcn.vscode-lldb",
+  "rust-analyzer.debug.openDebugPane": true,
+  "rust-analyzer.diagnostics.enable": true,
+  "rust-analyzer.diagnostics.experimental.enable": true,
+  "rust-analyzer.files.watcher": "client",
+  "rust-analyzer.highlightRelated.references.enable": true,
+  "rust-analyzer.hover.actions.debug.enable": true,
+  "rust-analyzer.hover.actions.implementations.enable": true,
+  "rust-analyzer.hover.actions.references.enable": true,
+  "rust-analyzer.hover.documentation.keywords.enable": true,
+  "rust-analyzer.hover.links.enable": true,
+  "rust-analyzer.inlayHints.bindingModeHints.enable": false,
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.minLines": 15,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "skip_trivial",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": true,
+  "rust-analyzer.inlayHints.typeHints.enable": true,
+  "rust-analyzer.inlayHints.typeHints.hideClosureInitialization": false,
+  "rust-analyzer.inlayHints.typeHints.hideNamedConstructor": true,
+  "rust-analyzer.lens.debug.enable": true,
+  "rust-analyzer.lens.enable": true,
+  "rust-analyzer.lens.implementations.enable": true,
+  "rust-analyzer.lens.location": "above_whole_item",
+  "rust-analyzer.lens.references.adt.enable": true,
+  "rust-analyzer.lens.references.enumVariant.enable": true,
+  // "rust-analyzer.inlayHints.reborrowHints.enable": "always",
+  "rust-analyzer.lens.references.method.enable": true,
+  "rust-analyzer.lens.references.trait.enable": true,
+  "rust-analyzer.lens.run.enable": true,
+  "rust-analyzer.lru.capacity": 256,
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.typing.autoClosingAngleBrackets.enable": true,
+  "search.sortOrder": "type",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": true,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "tabnine.debounceMilliseconds": 0,
+  "tabnine.experimentalAutoImports": true,
+  "tabnine.receiveBetaChannelUpdates": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.smoothScrolling": false,
+  "terminal.integrated.tabs.enableAnimation": true,
+  "typescript.suggest.autoImports": true,
+  // "typescript.referencesCodeLens.enabled": true,
+  // "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // "update.enableWindowsBackgroundUpdates": true,
+  "vim.argumentObjectClosingDelimiters": [")", "]", "}"],
+  "vim.argumentObjectOpeningDelimiters": ["(", "[", "{"],
+  "vim.argumentObjectSeparators": [","],
+  "vim.autoindent": true,
+  "vim.autoSwitchInputMethod.enable": false,
+  "vim.commandLineModeKeyBindings": [
+    {
+      "after": ["<ESC>"],
+      "before": ["<C-c>"]
+    }
+  ],
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.cursorStylePerMode.visual": "underline",
+  "vim.cursorStylePerMode.visualblock": "block",
+  "vim.easymotion": true,
+  "vim.easymotionDimBackground": true,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-b>": false,
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-i>": false,
+    "<C-n>": false,
+    "<C-t>": false,
+    "<Shift-tab>": false,
+    "<tab>": false
+  },
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.ignorecase": true,
+  "vim.inccommand": "replace",
+  "vim.incsearch": true,
+  //#insert mode non recursive key binding
+  "vim.insertModeKeyBindings": [
+    {
+      "after": ["<ESC>"],
+      "before": ["j", "k"]
+    }
+  ],
+  "vim.leader": "<space>",
+  // "terminal.external.linuxExec": "kitty",
+  // "vim.statusBarColorControl": true,
+  "vim.mouseSelectionGoesIntoVisualMode": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["-"],
+      "after": ["k", "$"]
+    },
+    {
+      "before": ["<leader>", "e", "q"],
+      "commands": ["mssql.runQuery"]
+    },
+    {
+      "after": ["V", "x", "<ESC>"],
+      "before": ["d", "x"]
+    },
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    //uppercase word
+    {
+      "after": ["v", "i", "w", "U", "e"],
+      "before": ["<leader>", "U"]
+    },
+    //lowercase word
+    {
+      "after": ["v", "i", "w", "u", "e"],
+      "before": ["<leader>", "u"]
+    },
+    //uppercase whole line
+    {
+      "after": ["V", "U", "e"],
+      "before": ["<leader>", "U", "l"]
+    },
+    //lowercase whole line
+    {
+      "after": ["V", "u", "e"],
+      "before": ["<leader>", "u", "l"]
+    },
+    //redo
+    {
+      "before": ["U"],
+      "commands": ["redo"]
+    },
+    //fold level 1
+    {
+      "before": ["<leader>", "f", "1"],
+      "commands": ["editor.foldLevel1"]
+    },
+    //fold level 2
+    {
+      "before": ["<leader>", "f", "2"],
+      "commands": ["editor.foldLevel2"]
+    },
+    //fold level 3
+    {
+      "before": ["<leader>", "f", "3"],
+      "commands": ["editor.foldLevel3"]
+    },
+    //unfold all
+    {
+      "before": ["<leader>", "u", "f"],
+      "commands": ["editor.unfoldAll"]
+    },
+    //run task
+    {
+      "before": ["<leader>", "r", "t"],
+      "commands": ["workbench.action.tasks.runTask"]
+    },
+    //run build task
+    {
+      "before": ["<leader>", "r", "b"],
+      "commands": ["workbench.action.tasks.build"]
+    },
+    //execute tests
+    {
+      "before": ["<leader>", "e", "t"],
+      "commands": ["workbench.action.tasks.test"]
+    },
+    //terminate task
+    {
+      "before": ["<leader>", "t", "t"],
+      "commands": ["workbench.action.tasks.terminate"]
+    },
+    //rerun task
+    {
+      "before": ["<leader>", "r", "r"],
+      "commands": ["workbench.action.tasks.restartTask"]
+    },
+    {
+      "before": ["t", "t"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
+    },
+    {
+      "after": ["_"],
+      "before": ["'"]
+    },
+    {
+      "after": ["$"],
+      "before": ["\""]
+    },
+    // {
+    //   "before": ["<leader>", "f", "p"],
+    //   "commands": ["workbench.actions.view.problems"]
+    // },
+    {
+      "before": ["<leader>", "n", "p"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "after": ["editor.action.marker.previous"],
+      "before": ["<leader>", "p", "p"]
+    },
+    {
+      "before": ["<leader>", "c", "l"],
+      "commands": ["workbench.action.editor.changeLanguageMode"]
+    },
+    {
+      "before": ["r", "n"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["<leader>", "h", "m"],
+      "commands": ["gitlens.toggleFileHeatmap"]
+    },
+    {
+      "before": ["<leader>", "g", "b"],
+      "commands": ["gitlens.toggleFileBlame"]
+    },
+    {
+      "before": ["<leader>", "g", "h"],
+      "commands": ["gitlens.showQuickFileHistories"]
+    },
+    {
+      "after": ["g", "g", "V", "G"],
+      "before": ["<leader>", "a"]
+    },
+    {
+      "before": ["<leader>", "s", "f"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "s", "a"],
+      "commands": ["workbench.action.files.saveAll"]
+    },
+    {
+      "before": ["s", "j"],
+      "commands": ["workbench.action.moveEditorToBelowGroup"]
+    },
+    {
+      "before": ["s", "k"],
+      "commands": ["workbench.action.moveEditorToAboveGroup"]
+    },
+    {
+      "before": ["s", "h"],
+      "commands": ["workbench.action.moveEditorToLeftGroup"]
+    },
+    {
+      "before": ["s", "l"],
+      "commands": ["workbench.action.moveEditorToRightGroup"]
+    },
+    {
+      "before": ["f", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["f", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["f", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["f", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["t", "m"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "after": ["y", "^"],
+      "before": ["y", "f", "s"]
+    },
+    {
+      "after": ["y", "$"],
+      "before": ["y", "t", "e"]
+    },
+    {
+      "after": ["d", "^"],
+      "before": ["d", "f", "s"]
+    },
+    {
+      "after": ["d", "$"],
+      "before": ["d", "t", "e"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // {
+    //   "before": ["<leader>", "f"],
+    //   "after": ["<leader>", "<leader>", "s"]
+    // },
+    {
+      "commands": ["workbench.action.navigateBack"],
+      "before": ["g", "j"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": [":nohl"]
+    },
+    {
+      "after": ["\"", "_", "d"],
+      "before": ["d"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "after": ["<leader>", "<leader>", "s"]
+    }
+  ],
+  "vim.overrideCopy": false,
+  "vim.searchHighlightColor": "brown",
+  // "vim.showcmd": true,
+  "vim.showmodename": true,
+  "vim.smartcase": true,
+  "vim.smartRelativeLine": true,
+  "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.surround": true,
+  "vim.targets.bracketObjects.enable": true,
+  "vim.useCtrlKeys": true,
+  // "vim.overrideCopy": true,
+  "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<leader>", "e", "q"],
+      "commands": ["mssql.runCurrentStatement"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["codesnap.start"]
+    },
+    {
+      "after": ["n", "0", "v", "$"],
+      "before": ["s", "e"]
+    },
+    // {
+    //   "before": ["i"],
+    //   "after": ["<ESC>", "i"]
+    // },
+    {
+      "after": ["<ESC>"],
+      "before": ["n"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // //override pasting (registers related stuff)
+    // {
+    //   "before": ["p"],
+    //   "after": ["\"", "0", "p"]
+    // },
+    // //same goes here, basically we yank into register 0 and paste from it, normally, it goes into unnamed register which is clipboard in visual mode
+    // {
+    //   "before": ["y"],
+    //   "after": ["\"", "0", "y"]
+    // },
+    // {
+    //   "after": ["\"", "_", "d"],
+    //   "before": ["d"]
+    // },
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.closeWhenEmpty": false,
+  "window.commandCenter": true,
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
+  "window.titleBarStyle": "custom",
+  "window.titleSeparator": " - ",
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#ff930f",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "editorCursor.background": "#ff930f",
+    "editorCursor.foreground": "#ff930f",
+    "editorLineNumber.activeForeground": "#A020F0",
+    "editorLineNumber.foreground": "#5DE23C",
+    // "editorInlayHint.background": "#e37474",
+    // "editorInlayHint.foreground": "#fff"
+    "statusBar.background": "#000000",
+    "statusBar.debuggingBackground": "#007acc",
+    "statusBar.foreground": "#F4DB01",
+    "statusBar.noFolderBackground": "#007acc"
+  },
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.languageDetection": true,
+  "workbench.editor.openPositioning": "first",
+  "workbench.hover.delay": 1,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.list.smoothScrolling": true,
+  "workbench.reduceMotion": "on",
+  "workbench.tips.enabled": true,
+  "workbench.tree.expandMode": "singleClick",
+  // "workbench.tree.renderIndentGuides": "always",
+  "workbench.trustedDomains.promptInTrustedWorkspace": false,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "codesnap.realLineNumbers": false,
+  "codesnap.containerPadding": "0.3em",
+  "codesnap.shutterAction": "copy",
+  "mssql.connections": [
+    {
+      "connectionString": "Server=DOTRAN; Integrated Security=True",
+      "profileName": "Local",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "server": "DOTRAN",
+      "database": "",
+      "user": "",
+      "password": "",
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql",
+      "authenticationType": "Integrated"
+    }
+  ],
+  "editor.experimental.asyncTokenization": true,
+  "omnisharp.enableAsyncCompletion": true,
+  "angular.view-engine": false
+}

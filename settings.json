@@ -98,7 +98,7 @@
   "editor.fastScrollSensitivity": 5,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.find.autoFindInSelection": "multiline",
-  "editor.fontFamily": "'FiraCode NF', 'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'FiraCode NF', 'firaCode Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -113,7 +113,7 @@
   "editor.inlayHints.enabled": "on",
   "editor.inlayHints.fontSize": 12,
   "editor.inlineSuggest.enabled": true,
-  "editor.lineNumbers": "interval",
+  "editor.lineNumbers": "on",
   "editor.linkedEditing": true,
   "editor.links": true,
   // "editor.language.colorizedBracketPairs": [
@@ -592,7 +592,6 @@
   "window.closeWhenEmpty": false,
   "window.commandCenter": true,
   "window.dialogStyle": "custom",
-  "window.menuBarVisibility": "toggle",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
   "window.titleBarStyle": "custom",
   "window.titleSeparator": " - ",
@@ -604,6 +603,14 @@
     "editorCursor.foreground": "#ff930f",
     "editorLineNumber.activeForeground": "#A020F0",
     "editorLineNumber.foreground": "#5DE23C",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#F4DB01",
+    "titleBar.inactiveBackground": "#000000",
+    "titleBar.inactiveForeground": "#ffffff",
+    "tab.activeBorder": "#F4DB01",
+    // "tab.activeBorderTop": "#F4DB01",
+    "terminal.tab.activeBorder": "#F4DB01",
+    // "tab.activeModifiedBorder": "#ff0000",
     // "editorInlayHint.background": "#e37474",
     // "editorInlayHint.foreground": "#fff"
     "statusBar.background": "#000000",
@@ -623,7 +630,6 @@
   "workbench.tree.expandMode": "singleClick",
   // "workbench.tree.renderIndentGuides": "always",
   "workbench.trustedDomains.promptInTrustedWorkspace": false,
-  "workbench.welcomePage.walkthroughs.openOnInstall": false,
   "codesnap.realLineNumbers": false,
   "codesnap.containerPadding": "0.3em",
   "codesnap.shutterAction": "copy",
@@ -645,5 +651,8 @@
   ],
   "editor.experimental.asyncTokenization": true,
   "omnisharp.enableAsyncCompletion": true,
-  "angular.view-engine": false
+  "angular.view-engine": false,
+  "settingsSync.keybindingsPerPlatform": false,
+  "window.menuBarVisibility": "compact",
+  "git.openRepositoryInParentFolders": "always"
 }
